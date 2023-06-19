@@ -5,7 +5,7 @@ from shapely.geometry import Point
 from datetime import datetime, timedelta
 import flickrapi
 
-# read *_new_parks.csv files to get information  of geotagged posts on flickr in each park category
+# read *_parks.csv files to get information of geotagged posts on Flickr in each park category
 # save flickr posts in each category to new files named '*_flickr_posts.csv'
 
 # flickr api
