@@ -16,3 +16,5 @@ File Description:
 all_flickr_post.csv: all Flickr posts for all parks in ALL categories
 
 merged_posts_count.csv: park name, posts count, facilities count for parks in ALL category
+
+Recreation_and_Parks_Properties.csv: park name, park category, geo information, etc. This database is downloaded from DataSF.
