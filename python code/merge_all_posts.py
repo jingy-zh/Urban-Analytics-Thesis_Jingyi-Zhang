@@ -1,10 +1,10 @@
 import pandas as pd
 import glob
-# merge all files names ending with *_new_photos
+# merge all files names ending with *_flickr_posts
 # to generate a new file named 'all_flickr_post.csv' containing all flickr posts
 
 # Get a list of all the file names
-file_names = glob.glob('*_new_photos.csv')
+file_names = glob.glob('*_flickr_posts.csv')
 
 # Read the first file
 merged_df = pd.read_csv(file_names[0])
