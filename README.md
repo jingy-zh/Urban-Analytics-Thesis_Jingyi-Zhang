@@ -1,5 +1,7 @@
 # Urban-Analytics-Thesis_Jingyi-Zhang
-Database and code for seminar thesis in course of Urban Analytics
+Database, figures and code for seminar thesis in the course of Urban Analytics
+
+Also Documentation for interaction with ChatGPT 
 
 By. Jingyi Zhang
 ____________________________________________________________________
