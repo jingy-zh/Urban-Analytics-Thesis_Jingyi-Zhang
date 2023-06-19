@@ -1,23 +1,24 @@
 import pandas as pd
 
 # Read the data from the CSV file into a pandas DataFrame
-df = pd.read_csv('Civic Plaza or Square_new_photos.csv')
+# replace file
+df = pd.read_csv('Civic Plaza or Square_flickr_posts.csv')
 
-# Check initial number of rows
+# check initial number of rows
 print(f"Initial number of rows: {len(df)}")
 
-# Remove duplicates
+# remove duplicates
 df = df.drop_duplicates()
 
-# Check number of rows after removing duplicates
+# check number of rows after removing duplicates
 print(f"Number of rows after removing duplicates: {len(df)}")
 
-# Save the cleaned DataFrame back to the CSV file
-df.to_csv('Zoological Garden_new_photos.csv', index=False)
+# save the cleaned DataFrame back to the CSV file
+df.to_csv('Civic Plaza or Square_flickr_posts.csv', index=False)
 
 
 # replace file name
 
-# 'Mini Park_new_photo.csv',
-# 'Neighborhood Park or Playground_new_photo.csv',
-# 'Regional Park_new_photo.csv',
+# 'Mini Park_flickr_posts.csv',
+# 'Neighborhood Park or Playground_flickr_posts.csv',
+# 'Regional Park_flickr_posts.csv',
