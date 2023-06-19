@@ -1,14 +1,14 @@
 import pandas as pd
-# this file count the posts of each *_new_photos file,
+# this file count the posts of each *_flickr_posts file,
 # and generate a new file whtich named *_post_count
 # Read the data from the CSV file into a pandas DataFrame
 
 # replace file name for each category of parks
 
-# 'Civic Plaza or Square_new_photos.csv',
-# 'Mini Park_new_photos.csv',
-# 'Neighborhood Park or Playground_new_photos.csv',
-# 'Regional Park_new_photos.csv']
+# 'Civic Plaza or Square_flickr_posts.csv',
+# 'Mini Park_flickr_posts.csv',
+# 'Neighborhood Park or Playground_flickr_posts.csv',
+# 'Regional Park_flickr_posts.csv']
 
 df = pd.read_csv('Mini Park_new_photos.csv')
 
@@ -23,5 +23,6 @@ total_row = pd.DataFrame([['Total', total_posts]], columns=['park_name', 'post_c
 park_post_count = pd.concat([park_post_count, total_row])
 
 # Save the result to a new CSV file
+# replace file name for each category
 park_post_count.to_csv('Mini Park_post_count', index=False)
 
