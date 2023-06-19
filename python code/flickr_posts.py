@@ -93,11 +93,11 @@ def save_photos_to_csv(photos_by_category):
 
 
 
-csv_files = ['Mini Park_new_parks.csv'] #replace csv file name
+csv_files = ['Mini Park_parks.csv'] #replace csv file name
 photos_by_category = get_geotagged_photos_in_parks(csv_files, years=2)
 save_photos_to_csv(photos_by_category)
 
-# 'Mini Park_new_parks.csv',
-# 'Neighborhood Park or Playground_new_parks.csv'
-# 'Regional Park_new_parks.csv',
-# Civic Plaza or Square_new_parks.csv
+# 'Mini Park_parks.csv',
+# 'Neighborhood Park or Playground_parks.csv'
+# 'Regional Park_parks.csv',
+# Civic Plaza or Square_parks.csv
